@@ -1,7 +1,35 @@
 
-body{ 
+
+.flexbox{ 
        
-       text-align:center;
-       color:blue;
+       flex-direction:column;
        font-family:Arial, Helvetica, sans-serif;
-    }
+       width: 70%;
+       padding:1mm;
+       margin:0;
+       display:flex;
+       border:solid black;
+      }
+
+      
+.box{ 
+      margin:10px;
+      font-size: 20px;
+      
+}
+
+
+h1{ 
+      margin:10px;
+      text-align: center;
+      font-size: 20px;
+      color: black;
+          
+}
+
+p{ 
+text-align: left;
+font-size: 20px;
+justify-content: left;
+
+}
